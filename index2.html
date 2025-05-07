@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Merchandising de UNO Theory</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffffff, #f0f4f8);
+      color: #222;
+    }
+
+    header {
+      background-color: #e63946;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 150px;
+        color: yellow;
+    }
+
+    .content {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-info h3 {
+      margin: 0 0 10px;
+      color: #1d3557;
+    }
+
+    .product-info p {
+      margin: 0 0 10px;
+    }
+
+    .price {
+      color: #e63946;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .buy-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #457b9d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .buy-button:hover {
+      background-color: #1d3557;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #457b9d;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Merchandising Oficial de UNO Theory</h1>
+</header>
+
+<div class="content">
+  <p class="intro">
+    ¡Explora nuestra tienda con productos inspirados en UNO Theory! Desde ropa hasta artículos coleccionables, perfectos para fans del clásico juego de cartas.
+  </p>
+
+  <div class="products">
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/91XFGdO22wL._CLa%7C2140%2C2000%7C61BgXjdEc8L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png" alt="Camiseta UNO">
+      <div class="product-info">
+        <h3>Camiseta Clásica UNO</h3>
+        <p>Disponible en varias tallas. 100% algodón.</p>
+        <div class="price">€19.99</div>
+        <a class="buy-button" href="#">Comprar</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://http2.mlstatic.com/D_997325-MLM84060258859_042025-C.jpg" alt="Taza UNO">
+      <div class="product-info">
+        <h3>Juego de uno edicion especial</h3>
+        <p>Perfecta para tu familia.</p>
+        <div class="price">€12.99</div>
+        <a class="buy-button" href="#">Comprar</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://http2.mlstatic.com/D_Q_NP_777710-MLM48163175605_112021-O.webp">
+      <div class="product-info">
+        <h3>UNO Edición Retro</h3>
+        <p>Reedición vintage del juego original.</p>
+        <div class="price">€9.99</div>
+        <a class="buy-button" href="#">Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Tienda Oficial de UNO. Todos los derechos reservados.
+</footer>
